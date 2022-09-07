@@ -1,0 +1,1358 @@
+{
+  "Routes": [
+    /* Area */
+    {
+      "UpstreamPathTemplate": "/area/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5107
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5107
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5107
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5107
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5107
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5107
+        }
+      ]
+    },
+
+    /* Bank */
+    {
+      "UpstreamPathTemplate": "/bank/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5105
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5105
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5105
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5105
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5105
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5105
+        }
+      ]
+    },
+
+    /* Bill */
+    {
+      "UpstreamPathTemplate": "/bill/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5215
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5215
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5215
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5215
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5215
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5215
+        }
+      ]
+    },
+
+    /* Courier */
+    {
+      "UpstreamPathTemplate": "/courier/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5103
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5103
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5103
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5103
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5103
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5103
+        }
+      ]
+    },
+
+    /* Credit */
+    {
+      "UpstreamPathTemplate": "/credit/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5213
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5213
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5213
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5213
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5213
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5213
+        }
+      ]
+    },
+
+    /* Customer */
+    {
+      "UpstreamPathTemplate": "/customer/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5209
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5209
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5209
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5209
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5209
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5209
+        }
+      ]
+    },
+
+    /* Document */
+    {
+      "UpstreamPathTemplate": "/document/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5109
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5109
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5109
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5109
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5109
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5109
+        }
+      ]
+    },
+
+    /* Feedback */
+    {
+      "UpstreamPathTemplate": "/feedback/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5221
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5221
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5221
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5221
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5221
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5221
+        }
+      ]
+    },
+
+    /* GCP */
+    {
+      "UpstreamPathTemplate": "/gcp/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5115
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5115
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5115
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5115
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5115
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5115
+        }
+      ]
+    },
+
+    /* Inventory */
+    {
+      "UpstreamPathTemplate": "/inventory/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5203
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5203
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5203
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5203
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5203
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5203
+        }
+      ]
+    },
+
+    /* Messaging */
+    {
+      "UpstreamPathTemplate": "/messaging/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5113
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5113
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5113
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5113
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5113
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5113
+        }
+      ]
+    },
+
+    /* Notification (Web Socket) */
+    {
+      "UpstreamPathTemplate": "/notification/ws/signals/{path_1}",
+      "DownstreamPathTemplate": "/signals/{path_1}",
+      "DownstreamScheme": "wss",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5117
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/ws/signals/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/signals/{path_1}/{path_2}",
+      "DownstreamScheme": "wss",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5117
+        }
+      ]
+    },
+
+    /* Notification */
+    {
+      "UpstreamPathTemplate": "/notification/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5117
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5117
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5117
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5117
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5117
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5117
+        }
+      ]
+    },
+
+    /* Order */
+    {
+      "UpstreamPathTemplate": "/order/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5211
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5211
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5211
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5211
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5211
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5211
+        }
+      ]
+    },
+
+    /* Payment */
+    {
+      "UpstreamPathTemplate": "/payment/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5223
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5223
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5223
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5223
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5223
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5223
+        }
+      ]
+    },
+
+    /* Posting */
+    {
+      "UpstreamPathTemplate": "/posting/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5227
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5227
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5227
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5227
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5227
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5227
+        }
+      ]
+    },
+
+    /* Printing */
+    {
+      "UpstreamPathTemplate": "/printing/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5217
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5217
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5217
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5217
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5217
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5217
+        }
+      ]
+    },
+
+    /* Public */
+    {
+      "UpstreamPathTemplate": "/public/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5219
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5219
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5219
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5219
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5219
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5219
+        }
+      ]
+    },
+
+    /* Security */
+    {
+      "UpstreamPathTemplate": "/security/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ]
+    },
+
+    /* Setting */
+    {
+      "UpstreamPathTemplate": "/setting/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5207
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5207
+        }
+      ]
+    },
+
+    /* Streaming (Web Socket) */
+    {
+      "UpstreamPathTemplate": "/streaming/ws/signals/{path_1}",
+      "DownstreamPathTemplate": "/signals/{path_1}",
+      "DownstreamScheme": "wss",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5205
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/ws/signals/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/signals/{path_1}/{path_2}",
+      "DownstreamScheme": "wss",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5205
+        }
+      ]
+    },
+
+    /* Streaming */
+    {
+      "UpstreamPathTemplate": "/streaming/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5205
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5205
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5205
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5205
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5205
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5205
+        }
+      ]
+    },
+
+    /* UserAccount */
+    {
+      "UpstreamPathTemplate": "/useraccount/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5201
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5201
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5201
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5201
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5201
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5201
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "LoadBalancer": "LeastConnection",
+    "DownstreamScheme": "https",
+    "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+  }
+}

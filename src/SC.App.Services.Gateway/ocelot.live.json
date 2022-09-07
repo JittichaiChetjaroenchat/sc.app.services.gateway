@@ -1,0 +1,1358 @@
+{
+  "Routes": [
+    /* Area */
+    {
+      "UpstreamPathTemplate": "/area/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-area.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-area.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-area.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-area.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-area.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/area/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-area.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Bank */
+    {
+      "UpstreamPathTemplate": "/bank/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bank.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bank.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bank.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bank.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bank.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bank/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bank.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Bill */
+    {
+      "UpstreamPathTemplate": "/bill/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bill.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bill.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bill.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bill.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bill.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/bill/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-bill.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Courier */
+    {
+      "UpstreamPathTemplate": "/courier/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-courier.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-courier.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-courier.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-courier.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-courier.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/courier/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-courier.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Credit */
+    {
+      "UpstreamPathTemplate": "/credit/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-credit.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-credit.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-credit.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-credit.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-credit.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/credit/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-credit.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Customer */
+    {
+      "UpstreamPathTemplate": "/customer/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-customer.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-customer.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-customer.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-customer.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-customer.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-customer.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Document */
+    {
+      "UpstreamPathTemplate": "/document/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-document.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-document.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-document.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-document.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-document.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/document/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-document.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Feedback */
+    {
+      "UpstreamPathTemplate": "/feedback/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-feedback.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-feedback.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-feedback.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-feedback.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-feedback.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/feedback/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-feedback.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* GCP */
+    {
+      "UpstreamPathTemplate": "/gcp/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-gcp.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-gcp.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-gcp.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-gcp.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-gcp.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gcp/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-gcp.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Inventory */
+    {
+      "UpstreamPathTemplate": "/inventory/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-inventory.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-inventory.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-inventory.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-inventory.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-inventory.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/inventory/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-inventory.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Messaging */
+    {
+      "UpstreamPathTemplate": "/messaging/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-messaging.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-messaging.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-messaging.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-messaging.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-messaging.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/messaging/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-messaging.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Notification (Web Socket) */
+    {
+      "UpstreamPathTemplate": "/notification/ws/signals/{path_1}",
+      "DownstreamPathTemplate": "/signals/{path_1}",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-notification.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/ws/signals/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/signals/{path_1}/{path_2}",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-notification.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Notification */
+    {
+      "UpstreamPathTemplate": "/notification/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-notification.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-notification.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-notification.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-notification.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-notification.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/notification/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-notification.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Order */
+    {
+      "UpstreamPathTemplate": "/order/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-order.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-order.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-order.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-order.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-order.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/order/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-order.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Payment */
+    {
+      "UpstreamPathTemplate": "/payment/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-payment.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-payment.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-payment.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-payment.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-payment.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-payment.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Posting */
+    {
+      "UpstreamPathTemplate": "/posting/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-posting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-posting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-posting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-posting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-posting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/posting/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-posting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Printing */
+    {
+      "UpstreamPathTemplate": "/printing/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-printing.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-printing.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-printing.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-printing.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-printing.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/printing/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-printing.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Public */
+    {
+      "UpstreamPathTemplate": "/public/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-public.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-public.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-public.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-public.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-public.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/public/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-public.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Security */
+    {
+      "UpstreamPathTemplate": "/security/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-security.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-security.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-security.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-security.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-security.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/security/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-security.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Setting */
+    {
+      "UpstreamPathTemplate": "/setting/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-setting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-setting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-setting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-setting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-setting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/setting/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-setting.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Streaming (Web Socket) */
+    {
+      "UpstreamPathTemplate": "/streaming/ws/signals/{path_1}",
+      "DownstreamPathTemplate": "/signals/{path_1}",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-streaming.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/ws/signals/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/signals/{path_1}/{path_2}",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-streaming.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* Streaming */
+    {
+      "UpstreamPathTemplate": "/streaming/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-streaming.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-streaming.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-streaming.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-streaming.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-streaming.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/streaming/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-streaming.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+
+    /* UserAccount */
+    {
+      "UpstreamPathTemplate": "/useraccount/{path_1}",
+      "DownstreamPathTemplate": "/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-useraccount.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}",
+      "DownstreamPathTemplate": "/api/{path_1}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-useraccount.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}/{path_2}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-useraccount.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-useraccount.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-useraccount.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/useraccount/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamPathTemplate": "/api/{path_1}/{path_2}/{path_3}/{path_4}/{path_5}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "app-services-useraccount.th1.proen.cloud",
+          "Port": 80
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "LoadBalancer": "LeastConnection",
+    "DownstreamScheme": "https",
+    "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+  }
+}

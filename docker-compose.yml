@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  syncchat-app-services-gateway:
+    image: syncchat/app-services-gateway:latest
+    container_name: syncchat_app_services_gateway
+    ports:
+        - 5000:5000
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    

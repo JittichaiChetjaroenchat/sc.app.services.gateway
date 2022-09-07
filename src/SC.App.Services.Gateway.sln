@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SC.App.Services.Gateway", "SC.App.Services.Gateway\SC.App.Services.Gateway.csproj", "{2EC191AF-1E7C-4233-902B-A32E4A085131}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SC.App.Services.Gateway.Lib", "SC.App.Services.Gateway.Lib\SC.App.Services.Gateway.Lib.csproj", "{F800AE84-F551-410B-92EB-CE65E37D3B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		dev|Any CPU = dev|Any CPU
+		live|Any CPU = live|Any CPU
+		local|Any CPU = local|Any CPU
+		preview|Any CPU = preview|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EC191AF-1E7C-4233-902B-A32E4A085131}.dev|Any CPU.ActiveCfg = dev|Any CPU
+		{2EC191AF-1E7C-4233-902B-A32E4A085131}.dev|Any CPU.Build.0 = dev|Any CPU
+		{2EC191AF-1E7C-4233-902B-A32E4A085131}.live|Any CPU.ActiveCfg = live|Any CPU
+		{2EC191AF-1E7C-4233-902B-A32E4A085131}.live|Any CPU.Build.0 = live|Any CPU
+		{2EC191AF-1E7C-4233-902B-A32E4A085131}.local|Any CPU.ActiveCfg = local|Any CPU
+		{2EC191AF-1E7C-4233-902B-A32E4A085131}.local|Any CPU.Build.0 = local|Any CPU
+		{2EC191AF-1E7C-4233-902B-A32E4A085131}.preview|Any CPU.ActiveCfg = preview|Any CPU
+		{2EC191AF-1E7C-4233-902B-A32E4A085131}.preview|Any CPU.Build.0 = preview|Any CPU
+		{F800AE84-F551-410B-92EB-CE65E37D3B7B}.dev|Any CPU.ActiveCfg = dev|Any CPU
+		{F800AE84-F551-410B-92EB-CE65E37D3B7B}.dev|Any CPU.Build.0 = dev|Any CPU
+		{F800AE84-F551-410B-92EB-CE65E37D3B7B}.live|Any CPU.ActiveCfg = live|Any CPU
+		{F800AE84-F551-410B-92EB-CE65E37D3B7B}.live|Any CPU.Build.0 = live|Any CPU
+		{F800AE84-F551-410B-92EB-CE65E37D3B7B}.local|Any CPU.ActiveCfg = local|Any CPU
+		{F800AE84-F551-410B-92EB-CE65E37D3B7B}.local|Any CPU.Build.0 = local|Any CPU
+		{F800AE84-F551-410B-92EB-CE65E37D3B7B}.preview|Any CPU.ActiveCfg = preview|Any CPU
+		{F800AE84-F551-410B-92EB-CE65E37D3B7B}.preview|Any CPU.Build.0 = preview|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E24513EB-E3B1-4621-AAAC-5287AC5AF305}
+	EndGlobalSection
+EndGlobal
